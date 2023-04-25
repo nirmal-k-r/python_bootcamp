@@ -1,0 +1,157 @@
+body{
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 768px){
+    .title{
+        font-size: 25px;
+    }
+
+    nav{
+        background-color: rgb(46, 8, 11);
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .title{
+        font-size: 25px;
+    }
+
+    nav{
+        background-color:   rgb(3, 6, 27);
+    }
+}
+  
+    
+
+nav{
+    /* background-color: rgb(10, 10, 11); */
+    color:white;
+    display: block;
+    height: 68px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+
+.nav>a{
+    color: white;
+    display:inline;
+}
+
+.logo{
+    display: inline;
+    max-height: 40px;
+    margin-top: 12px;
+}
+
+.title{
+   float: right;
+   margin-top: 27px;
+   text-transform: uppercase;
+   font-size: small;
+}
+
+.footer{
+    background-color: rgb(0, 0, 16);
+    font-weight: bold;
+    color:white;
+    display: block;
+    bottom: 0;
+    position: sticky;
+    padding: 40px 0;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+.card{
+    max-width: 200px;
+    max-height: 600px;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+  
+
+}
+
+.card:hover{
+    box-shadow: 0 0 3px 3px #08080845;
+}
+
+.card > img {
+    max-width: 180px;
+    max-height: 400px;
+    display: inline-block;
+}
+
+.card > .product{
+    text-align: center !important;
+    align-items: center;
+   
+}
+
+
+.card > .product_title{
+    text-align: center;
+   
+}
+
+.card > .price{
+    text-align: center;
+    font-size: larger;
+    color:#44a059;
+}
+
+.buy{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #000000;
+    background-color: aliceblue;
+    height: 35px;
+}
+.buy:hover{
+    background-color: #4ed75e;
+    color: rgb(255, 255, 255);
+}
+
+.discount{
+    text-align: center;
+    text-decoration:line-through;
+    font-size: smaller;
+    color:#000000;
+}
+
+.imageIcon{
+    position: absolute;
+    top:0;
+    margin: 10px;
+    background-color: #4ed75e;
+    border-radius: 50%;
+    height: 50px;
+    padding: 10px;
+}
+
+.imageIcon2{
+    position: absolute;
+    top:0;
+    right:0;
+    margin: 10px;
+    background-color: #d74e4e;
+    border-radius: 50%;
+    height: 50px;
+    padding: 10px;
+}
+
+.whiteText{
+    color: white;
+}

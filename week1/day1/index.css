@@ -1,3 +1,15 @@
+/* @media screen and (min-width: 1000px) and (max-width: 4000px) {
+    body{
+        background-color: #ff4141;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 1000px) {
+    body{
+        background-color: #fff;
+    }
+} */
+
 nav{
     position: sticky;
     top:10;
@@ -9,6 +21,17 @@ nav{
     border-radius: 10px;
 
 }
+
+.buyButton{
+    width: 100px;
+    height: 35px;
+}
+
+.buyButton:hover{
+    background-color: #23ccff;
+    color: #fff;
+}
+
 
 nav > a{
     color: #fff;
