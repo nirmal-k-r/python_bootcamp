@@ -10,6 +10,10 @@ body{
     nav{
         background-color: rgb(46, 8, 11);
     }
+    
+    .card{
+        display: inline-block;
+    }
 }
 
 
@@ -20,6 +24,12 @@ body{
 
     nav{
         background-color:   rgb(3, 6, 27);
+    }
+
+    .card{
+        display: block;
+        text-align: center;
+        align-items: center;
     }
 }
   
@@ -73,13 +83,13 @@ nav{
 .card{
     max-width: 200px;
     max-height: 600px;
-    display: inline-block;
+   
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
     position: relative;
-  
+    background-color: #fff;
 
 }
 
@@ -88,7 +98,7 @@ nav{
 }
 
 .card > img {
-    max-width: 180px;
+    max-width: 200px;
     max-height: 400px;
     display: inline-block;
 }
@@ -116,7 +126,7 @@ nav{
     align-items: center;
     width: 100%;
     border: 1px solid #000000;
-    background-color: aliceblue;
+    background-color: transparent;
     height: 35px;
 }
 .buy:hover{
