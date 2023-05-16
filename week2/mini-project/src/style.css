@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(243, 250, 255);
+}
+
+.footer{
+    position: sticky;   
+    width: 100%;
+    bottom: 0;   
+}
+
+.footerText{
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+
+.profile{
+    align-items: center;
+    text-align: center;
+}
+.profileIcon{
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50%;
+    border: 5px solid black;
+   
+}

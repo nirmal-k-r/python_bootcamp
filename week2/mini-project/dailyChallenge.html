@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Css animations</title>
+    </head>
+
+    <body>  
+
+        <div class="fade"></div>
+        
+        <br>
+
+        <div class="color"></div>
+
+        <br>
+
+        <div class="grow"></div>
+
+        <br>
+
+        <div class="shrink"></div>
+
+        <br>
+
+        <div class="rotate"></div>
+
+        <br>
+
+        <div class="circle"></div>
+
+        <br>
+
+        <div class="threed"></div>
+
+        <br>
+
+
+        <div class="swing"></div>
+
+        <br>
+
+        <div class="border"></div>
+
+        <br>
+
+
+
+    </body>
+
+
+    <style>
+        body > div
+        {
+            width:483px;
+            height:298px;
+            background:#676470;
+            transition:all 0.3s ease;
+        }
+
+        .fade
+        {
+            opacity:0.5;
+        }
+        .fade:hover
+        {
+            opacity:1;
+        }
+
+        .color:hover
+        {
+        background:#53a7ea;
+        }
+
+        .grow:hover
+            {
+            -webkit-transform: scale(1.5);
+            -ms-transform: scale(1.5);
+            transform: scale(1.5);
+            }
+
+        .shrink:hover
+        {
+        -webkit-transform: scale(0.5);
+        -ms-transform: scale(0.5);
+        transform: scale(0.5);
+        }
+
+        .rotate:hover
+        {
+        -webkit-transform: rotateZ(90deg);
+        -ms-transform: rotateZ(90deg);
+        transform: rotateZ(90deg);
+        }
+
+        .circle:hover
+        {
+        border-radius:50%;
+        }
+
+        .threed:hover
+        {
+        box-shadow:
+        1px 1px #53a7ea,
+        2px 2px #53a7ea,
+        3px 3px #53a7ea;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+        }
+
+
+        @-webkit-keyframes swing
+            {
+                15%
+                {
+                    -webkit-transform: translateX(5px);
+                    transform: translateX(5px);
+                }
+                30%
+                {
+                    -webkit-transform: translateX(-5px);
+                    transform: translateX(-5px);
+                } 
+                50%
+                {
+                    -webkit-transform: translateX(3px);
+                    transform: translateX(3px);
+                }
+                65%
+                {
+                    -webkit-transform: translateX(-3px);
+                    transform: translateX(-3px);
+                }
+                80%
+                {
+                    -webkit-transform: translateX(2px);
+                    transform: translateX(2px);
+                }
+                100%
+                {
+                    -webkit-transform: translateX(0);
+                    transform: translateX(0);
+                }
+            }
+            @keyframes swing
+            {
+                15%
+                {
+                    -webkit-transform: translateX(5px);
+                    transform: translateX(5px);
+                }
+                30%
+                {
+                    -webkit-transform: translateX(-5px);
+                    transform: translateX(-5px);
+                }
+                50%
+                {
+                    -webkit-transform: translateX(3px);
+                    transform: translateX(3px);
+                }
+                65%
+                {
+                    -webkit-transform: translateX(-3px);
+                    transform: translateX(-3px);
+                }
+                80%
+                {
+                    -webkit-transform: translateX(2px);
+                    transform: translateX(2px);
+                }
+                100%
+                {
+                    -webkit-transform: translateX(0);
+                    transform: translateX(0);
+                }
+            }
+
+            .swing:hover
+            {
+                -webkit-animation: swing 1s ease;
+                animation: swing 1s ease;
+                -webkit-animation-iteration-count: 1;
+                animation-iteration-count: 1;
+            }
+
+            .border:hover
+            {
+            box-shadow: inset 0 0 0 25px #53a7ea;
+            }
+    </style>
+</html>
+
+
