@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="onlineshop.css">
+     <title>Shopping Website</title>
+  
+</head>
+
+  <div id="imgdiv">
+    <nav>
+      <ul class="navigation">
+          <li class="nav"><a href="login.html">Log In</a></li>
+          <li class="nav"><a href="contact.html">Contact Us</a></li>
+          <li class="nav"><a href="Price.html">Prices</a></li>
+          <li class="nav"><a href="Shop.html">Shop</a></li>
+          <li class="nav"><a id="homelink" href="MBertrand.html">Home</a></li>
+          <li id="logo"><span style="color: #ffc2cc;">M</span>Beauty</li>
+      </ul>
+  </nav>
+  </div>
+  <h1>MBeauty Online Shop</h1>
+  <body>
+  <div id="products">
+    <div class="product">
+      <img src="image/Pinkish.jpg" alt="Pinkish" id="pink">
+      <h2>FALL</h2>
+      <p>Acrylic Powder 300g</p>
+      <p>Price: Rs 350</p>
+      <button onclick="addToCart('Pinkish', 19.99)">Add to Cart</button>
+    </div>
+    
+    <div class="product">
+      <img src="image/Shimmer.jpg" alt="Shimmer" id="shimmer">
+      <h2>AUTUMN</h2>
+      <p>Acrylic Powder 300g</p>
+      <p>Price: Rs 350</p>
+      <button onclick="addToCart('Shimmer', 29.99)">Add to Cart</button>
+    </div>
+  
+
+  <div class="product">
+    <img src="image/Summer.jpg" alt="Summer"  id="summer">
+    <h2>SUMMER</h2>
+    <p>Acrylic Powder 300g</p>
+    <p>Price: Rs 350</p>
+    <button onclick="addToCart('Summer', 29.99)">Add to Cart</button>
+  </div>
+
+<div class="product">
+    <img src="image/Tropical.jpg" alt="Tropical" id="tropical">
+    <h2>TROPICAL</h2>
+    <p>Acrylic Powder 300g</p>
+    <p>Price: Rs 350</p>
+    <button onclick="addToCart('Tropical', 29.99)">Add to Cart</button>
+  </div>
+
+<div class="product">
+    <img src="image/Top Coat.jpg" alt="Top Coat" id="topc">
+    <h2>TOP COAT</h2>
+    <p>Top coat 15ml</p>
+    <p>Price: Rs 175</p>
+    <button onclick="addToCart('Top Coat', 29.99)">Add to Cart</button>
+  </div>
+
+
+<div class="product">
+    <img src="image/bcoat.jpg" alt="Base Coat" id="bc">
+    <h2>BASE COAT</h2>
+    <p>Top coat 15ml</p>
+    <p>Price: Rs 175</p>
+    <button onclick="addToCart('Base Coat', 29.99)">Add to Cart</button>
+  </div>
+
+<div class="product">
+    <img src="image/cuticle oil.jpg" alt="Oil" id="Oil">
+    <h2>CUTICLE OIL</h2>
+    <p>Oil for cuticle 15ml</p>
+    <p>Price: Rs 350</p>
+    <button onclick="addToCart('Oil', 29.99)">Add to Cart</button>
+  </div>
+
+<div class="product">
+    <img src="image/setbrushers.jpg" alt="Acrylic Brush" id="Acrylic">
+    <h2>ACRYLIC BRUSH</h2>
+    <p>Acrylic Brush 12</p>
+    <p>Price: Rs 150</p>
+    <button onclick="addToCart('Acrylic Brush', 29.99)">Add to Cart</button>
+  </div>
+
+<div class="product">
+    <img src="image/Rosegold.jpg" alt="Rosegold" id="Rosegold">
+    <h2>ROSE GOLD</h2>
+    <p>Miracle Gel Polish 15ml</p>
+    <p>Price: Rs 150</p>
+    <button onclick="addToCart('Rosegold', 29.99)">Add to Cart</button>
+  </div>
+
+
+<div class="product">
+    <img src="image/corail_.jpg" alt="corail" id="corail">
+    <h2>CORAIL</h2>
+    <p>Miracle Gel Polish 15ml</p>
+    <p>Price: Rs 150</p>
+    <button onclick="addToCart('Clippers', 29.99)">Add to Cart</button>
+  </div>
+
+  
+<div class="product">
+  <img src="image/miracle pink.jpg" alt="Miracle pink" id="Miracle">
+  <h2>SHIMMER PINK</h2>
+  <p>Miracle Gel Polish 15ml</p>
+  <p>Price: Rs 150</p>
+  <button onclick="addToCart('Miracle pink', 29.99)">Add to Cart</button>
+</div>
+
+<div class="product">
+  <img src="image/tools.jpg" alt="tools" id="tools">
+  <h2>TOOLS</h2>
+  <p>Manicure and Pedicure nail set</p>
+  <p>Price: Rs 200</p>
+  <button onclick="addToCart('tools', 29.99)">Add to Cart</button>
+</div>
+</div>
+  <ul id="cart"></ul>
+
+  <script src="onshop.js"></script>
+</body>
+</html>
+

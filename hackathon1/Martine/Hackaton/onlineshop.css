@@ -1,0 +1,229 @@
+
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    width: 18%;
+  }
+
+.products{
+  width: 50%;
+}
+}
+
+body {
+    font-family: 'Cookie', cursive;
+    margin: 20px;
+      background: linear-gradient(90deg, rgb(249, 157, 157) 0%, rgb(248, 221, 221) 50%,  rgb(249, 157, 157) 100%);}
+
+
+  .navigation{
+    position: absolute;
+    top: 0;
+    width: 96%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    padding-right: 30px;
+    box-shadow : 0 6px 15px pink;
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0%;
+    margin-left: -2%;
+    
+  }
+
+
+    #logo {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 5px 10px 0px;
+      text-decoration: none;
+      font-size: 40px;
+      font-weight: bold;
+      cursor: pointer;
+      float: left;
+      font-family: 'Cookie', cursive;
+      font-family: 'Dancing Script', cursive;
+    
+    }
+
+    .nav a {
+      display: block;
+      color: #f8d177;
+      text-align: center;
+      padding: 18px 25px;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      font-family: 'Cookie', cursive;
+      font-family: 'Dancing Script', cursive;
+      text-decoration: none;}
+    
+      
+  nav a:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 0.1s;
+    background-color: pink;
+  }
+      
+      .nav{
+        float: right;
+      }
+
+
+  #brush {
+    height: 200px;
+  }
+  
+  #Clippers{
+    height: 175px;
+    width: 230px;
+
+  }
+  #Acrylic{
+    height: 180px;
+    width: 175px;
+  }
+
+ #tools{
+  height: 150px;
+   width: 200px;
+ } 
+
+
+  #acrylic{
+  height: 175px;
+  width: 150px;
+}
+
+  #Oil{
+    height: 175px;
+    width: 150px;
+  }
+  
+  #pink{
+    height: 175px;
+  
+  }
+
+  #Rosegold{
+    height: 175px;
+    width: 170px;
+  }
+
+ #corail{
+  height: 175px;
+  width: 170px;
+ }
+
+ #Miracle {
+  height: 175px;
+  width: 170px;
+ }
+
+
+  #shimmer{
+    height: 175px;
+  }
+
+  #topc{
+    height: 175px;
+
+  }
+  #bc{
+    height: 175px;
+    width:100px;
+  }
+
+  #tropical{
+    height: 175px;
+  }
+
+  #summer{
+    height: 175px;
+    width:170px;
+
+  }
+
+  .product #bc{
+    border:#fc799e 1px solid;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(255, 72, 139);
+    font-size: 350%;
+    margin-top: 9%;
+    font-weight: 1%;
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  h2{
+    color: rgb(255, 72, 139)
+  }
+  
+  p{
+ font-size: 150%;
+
+  }
+  #products {
+    /* display: flex; */
+    justify-content: space-around;
+
+  }
+  
+  .product {
+    text-align: center;
+    margin: 0%;
+    display: inline-block; 
+    border: 3px solid #f7d765;
+    transition: 0.3s ease;
+    border-radius: 2%;
+      align-items: center; 
+      max-width: 200px;
+      max-height: 400px;
+      flex-direction: column;
+      margin-left:7%;
+
+  }
+
+
+  .product:hover{
+    background-color: #f7d765;
+    color: rgb(244, 100, 133);
+    box-shadow: 0 0 3px 3px #fda7a7a6;
+    transform: scale(1.2);
+    z-index:2;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #fc799e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Cookie', cursive;
+    font-size: 150%;
+  
+
+  }
+  
+  button:hover {
+    background-color: #fc799e;
+  }
+  
+  #cart {
+    list-style-type: none;
+    padding: 0;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    #products {
+      width: 100%;
+    }
+  }

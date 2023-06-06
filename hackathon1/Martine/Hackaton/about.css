@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;}
+
+  
+@media only screen and (min-width:460px ) and (max-width: 781px) {
+  .about{
+    width: 100%;}
+
+}
+
+
+body{
+  background: linear-gradient(90deg, rgb(249, 157, 157) 0%, rgb(248, 221, 221) 50%,  rgb(249, 157, 157) 100%);}
+
+/* <!-- Navbar --> */
+ul {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
+  padding-right: 20px;
+  box-shadow : 0 6px 15px pink;
+  font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+
+li a {
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+li a:hover {
+  color: white;
+  text-decoration: underline;
+  transition: 0.1s;
+  background-color: pink;
+}
+
+#logo {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px 11px;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  float: left;
+}
+
+li {
+  float: right;
+}
+
+#self{
+  margin-top: 3%;
+  margin-left: 3%;
+  height: 550px;
+  width:450px
+}
+
+.text{
+  margin-top: 6%;
+  text-align: center;
+  color:rgb(237, 188, 83)
+  /* font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive; */
+}
+
+#beauty{
+  text-align: center;
+  font-weight: lighter ;
+  font-family: 'Cookie', cursive;
+  font-family: 'Dancing Script', cursive;
+
+}
+#para ,h2{
+ text-align: center;
+ margin-left: 17%;
+ margin-right:17%;
+ margin-top: 3%;
+ 
+}
+.minicontainer{
+  margin-left: 40%;
+  margin-top: -40%;
+  padding-top:4%;
+  color:rgb(252, 76, 108)
+}
+
+.about{
+  margin-right: 10%;
+  margin-left:40%;
+  padding-top: 0.5%;
+  font-family: 'Cookie', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(45, 39, 39);
+
+}
+
+.mine{
+  font-size: xx-large;
+  color:rgb(237, 188, 83);
+  font-weight: 25%;
+  }
+
+   #logoicons{
+    display: inline-block;
+    margin-left: 42%;
+    display: flex;
+    margin-top: 5%;
+
+   }
+
+   .logo {
+    margin-left: 43px;
+  
+   }
+
+  .logo:hover{
+    cursor: pointer;
+    background-color: rgb(236, 58, 108);
+    transition: 0.3s ease;
+    
+  }

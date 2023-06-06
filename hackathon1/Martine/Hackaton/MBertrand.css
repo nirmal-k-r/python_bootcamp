@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;}
+
+@media only screen and (max-width:600px) {
+  main{
+    display: block;
+  }
+  #imgdiv{
+    width: 969%;
+    margin:5px;
+  }
+
+  #CoverParagraph{
+    text-align: center;
+  }
+  }
+
+ .slideshow{
+    width: 100%;
+  }
+
+body{
+  background: linear-gradient(90deg, rgb(249, 157, 157) 0%, rgb(248, 221, 221) 50%,  rgb(249, 157, 157) 100%);}
+
+
+
+#imgdiv {
+    height: 80vh;
+    width: 100%;
+}
+
+#coverimg{
+    position: relative;
+    margin-top: 50px;;
+    filter: brightness(50%);  
+    height: 100%;
+    width: 100%;
+}
+
+/* <!-- Navbar --> */
+ul {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    padding-right: 20px;
+    box-shadow : 0 6px 15px pink;
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 0%;
+  }
+
+li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  li a:hover {
+    color: white;
+    text-decoration: underline;
+    transition: 0.1s;
+    background-color: pink;
+  }
+
+  #logo {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px 11px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    float: left;
+    margin-left: 3%;
+  }
+
+  li {
+    float: right;
+  }
+
+/* <!-- Navbar-End --> */
+
+
+/* <!-- maincontainer ---> */
+
+#txtcoverdiv {
+    position: absolute;
+    width: 55%;
+    top: 200px;
+    left: 100px;
+}
+
+.Covertitle h1 {
+    font-size: 70px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    
+}
+
+#CoverParahraph {
+    font-size: 20px;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+    margin:20px 0 40px 0;
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+
+#button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid pink;
+    color: pink;
+    font-weight: bold;
+    text-decoration: none; 
+    cursor: pointer;
+  }
+  
+#button:hover {
+    background-color: pink;
+    color: white;
+  }
+
+/* <!-- maincontainer end ---> */
+
+/*  
+SlideShow Styling */ */
+
+ .slideshow {
+  position: relative;
+  width: 150px;
+  height: 500px;
+  overflow: hidden;}
+
+
+
+.slideshow img {
+  width: 150px;
+  height: 500px;
+  /* object-fit: cover; */
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  margin-left: -3%;
+  padding-top: 3.3%;;
+  padding-left:5%;
+
+}
+
+.slideshow img.active {
+  opacity: 1;
+
+}   */
+/* 
+<!-- Highlights ---> */ */
+ #Highlights {
+text-align: center;
+margin-top: 50px;
+border: 2px solid red;
+height: 60vh ;
+width: 100%;
+}
+
+/* <!-- Highlights end ---> */
+
+/* <!-- Footer ---> */
+footer {
+    padding: 20px 0 20px 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+
+footer p {
+    font-size: 20px;
+    color: pink;
+    font-weight: bold;
+}
+/* <!-- Footer end ---> */

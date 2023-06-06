@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+ul {
+    position: absolute;
+    top: 0;
+    width: 99%;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(253, 159, 159);
+    padding-right: 20px;
+    box-shadow : 0 6px 15px pink;
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 0%;
+  }
+
+
+li a {
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+li a:hover {
+  color: white;
+  text-decoration: underline;
+  transition: 0.1s;
+  background-color: pink;
+}
+
+#logo {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px 11px;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: bold;
+  cursor: pointer;
+  float: left;
+}
+
+li {
+  float: right;
+}
+  
+  @media(max-width:991px){
+    .nav{
+      display:none;
+    }
+  }
+
+/*Section1*/
+
+#sectioncontainer{
+position: relative;
+height: 100vh;
+
+}
+
+#icon{
+  position:absolute;
+  width: 20%;
+  height: 20%;
+  margin-top: 5%;
+}
+
+#photo{
+filter: brightness(40%);
+}
+
+img {
+width: 100.3%;
+height: 96%;
+margin-top: 5%;
+}
+
+#Section1{
+position: absolute;
+top: 0;
+width: 100%;
+text-align: center;
+padding-top: 195px;
+background-repeat: none;
+}
+
+#Section1 h1{
+	font-size: 65px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 120px;
+    color: rgb(255, 119, 157);
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+
+#Section1 h2{
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 60px;
+	color: rgb(247, 198, 212);
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+    padding-top: -15%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa {
+ padding: 10px;
+  border-radius: 45%;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 5px 15px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+#login {
+text-align: center;
+margin-bottom: 30px;
+}
+
+#login input{
+	padding: 6px;
+	border-radius: 5%;
+	margin: 5px 0 10px 0;
+	width: 350px;
+	background-color: rgb(247, 214, 118);
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+}
+
+#login input:focus {
+background-color:rgb(255, 119, 157);
+font-weight: bold;
+
+}
+
+#login input:hover{
+cursor: text;
+background-color:rgb(255, 119, 157);
+}
+#loginb{
+	margin: 10px 0 20px 0;
+	padding:5px 60px 5px 60px;
+	border: 1px solid black;
+	border-radius: 5%;
+	background-color: rgb(255, 119, 157);
+	border: 2px solid goldenrod;
+}
+
+#loginb a {
+	color: rgb(6, 6, 6);
+	font-style: normal;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+
+#loginb:hover {
+color: rgb(237, 198, 100);
+}
+
+
+@media only screen and (max-width:600px) {
+  .navigation{ width: 100%;
+  }
+}
