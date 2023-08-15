@@ -1,5 +1,3 @@
-from django.shortcuts import render
-from django.shortcuts import render
 from django.http import HttpResponse 
 from django.shortcuts import render
 from django.template import loader
@@ -26,9 +24,17 @@ def about(request):
 def drivers(request):
 
     ctx={
+        'name': 'Nirmal',
         'drivers': Driver.objects.all().order_by('id')
     }
     
     
     template = loader.get_template('polls/drivers.html')
     return HttpResponse(template.render(ctx, request))
+
+def test(request):
+    if request['method']=='GET':
+        return HttpResponse("This is a test page")
+    
+    # else:
+    #     return HttpResponse("This is a test page")

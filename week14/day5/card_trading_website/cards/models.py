@@ -23,5 +23,3 @@ class Card(models.Model):
     xp_points=models.IntegerField(default=random.randint(1,10))
     current_owner=models.ForeignKey(User,on_delete=models.CASCADE, related_name='currentOwnertoUser',default=None,null=True,blank=True)
     previous_owner=models.ForeignKey(User,on_delete=models.CASCADE,related_name='previousOwnerToUser',default=None,null=True,blank=True)
-
-
